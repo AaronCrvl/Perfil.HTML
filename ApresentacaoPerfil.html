@@ -1,40 +1,81 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Recepção</title>
+        <title>Olá!</title>
         <meta charset="utf-8">
-    </head>    
-    <body style="background-color: white;">
-        <div style="font-family:Georgia, Times New Roman, Times, serif; text-align: center; ">
-            <h1 style="text-align: center;" >Bem-Vindo!</h1>        
-            <p style="text-align: center;">Meu nome é Aaron sou estudante de Engenharia de Sistemas pela Universidade Federal de Minas Gerais.</p>       
-            <p style="text-align: center;">Abaixo estão alguns projetos que fiz ao longo da minha -curta- trajetória, espero que eles possam te ajudar como refêrencia para outros projetos.</p>                
+    </head>  
+    <style>   
+        #BemVindo
+        {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+        #TabelaLinks
+        {
+            background-color: white;
+            border-color: white;
+        }
+        /*  Elementos dentro da Tabela  */
+        .Links 
+        {
+            text-align: center;
+        }        
+        #AreaContato
+        {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;            
+        }
+    </style>  
+    <body style="background-color: white; border-color: white;">
+
+        <!---->
+        <div id="BemVindo">
+            <h1>Bem-Vindo!</h1>        
+            <p>Meu nome é Aaron, sou estudante de Engenharia de Sistemas pela Universidade Federal de Minas Gerais.</p>       
+            <p>Abaixo estão alguns projetos que fiz ao longo da minha -curta- trajetória, espero que eles possam te ajudar como refêrencia para outros projetos.</p>                
         </div>
-        <br></br> 
+
+        <br></br>     
+
+        <!---->
+        <div id="TabelaLinks" style="font-family:Georgia, 'Times New Roman', Times, serif; text-align: center; ">
+            <h2>Selecione a linguagem</h2>
+            <table">
+                <tr class="Links">
+                    <th>
+                        <a  href="https://github.com/AaronCrvl?tab=repositories&q=&type=&language=c%2B%2B&sort=">
+                            <img src = "images/C++.png" alt = "Linguagem C#" width="100" height="100">
+                        </a>
+                    </th>      
+                    <th>
+                        <a  href="https://github.com/AaronCrvl?tab=repositories&q=&type=&language=c%2B%2B&sort=">
+                            <img src = "images/CSharp.png" alt = "Linguagem C#" width="150" height="100">
+                        </a> 
+                    </th>    
+                    <th>
+                        <a  href="https://github.com/AaronCrvl?tab=repositories&q=&type=&language=html&sort=">
+                            <img src = "images/html.png" alt = "Linguagem C#" width="150" height="100">
+                        </a> 
+                    </th>          
+                </tr>                                
+            </table>
+        </div>
+
+        <br></br>
+        <br></br>
+        <br></br>
         
-        <div style="font-family:Georgia, 'Times New Roman', Times, serif; text-align: center; ">
-            <h2>Selecione a linguagem:</h2>
-            <ul style="text-align: center;">
-                <li style="text-align: center; ">
-                    <a  href="https://github.com/AaronCrvl?tab=repositories&q=&type=&language=c%2B%2B&sort=">
-                        <img src = "images/C++.png" alt = "Linguagem C#" width="100" height="100">
-                    </a>                    
-                </li>
-                <br></br> 
-                <br></br> 
-                <li style="text-align: center; ">
-                    <a  href="https://github.com/AaronCrvl?tab=repositories&q=&type=&language=c%2B%2B&sort=">
-                        <img src = "images/CSharp.png" alt = "Linguagem C#" width="150" height="100">
-                    </a>                    
-                </li>           
-                <br></br> 
-                <br></br> 
-                <li style="text-align: center; ">
-                    <a  href="">
-                        <img src = "images/html.png" alt = "Linguagem C#" width="150" height="100">
-                    </a>                    
-                </li> 
-            </ul>
+        <!---->
+        <div id="AreaContato" >
+            <h2>Contato</h2>
+            <p>Selecione:
+                <input type="checkbox"/>Aluno
+                <input type="checkbox"/>Professor
+                <input type="checkbox"/>Empregador
+            </p>
+            <p>Nome: <input type="text" maxlength="15"/></p>
+            <p>Email: <input type="email" maxlength="15"/></p>
+            <p>Insira: <textarea></textarea></p>
         </div>
     </body>
 </html>
