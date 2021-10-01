@@ -3,16 +3,18 @@
     <head>
         <title>Contato</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/DefaultStyle.css" type="text/css">
+        <link rel="stylesheet" href="css/ContatoStyle.css" type="text/css">
     </head>
     <body style="background-image: url(images/Fundo.jpg);">
+        <div id="Animacao"></div>
         <!---->
         <div id="Cabecalho">
             <table>
                 <thead>
                     <tr id="OpcoesCabecalho">                        
                         <td>
-                            <a href="ApresentacaoPerfil.html">Home</a>
+                            <a href="TelaInicial.html">Home</a>
                         </td>
                         <td>
                             <a href="Contato.html">Contato</a>
@@ -22,24 +24,25 @@
         </table>
         </div>
         <!---->
-        <div id="AreaContato" >
-            <h2>Contato</h2>
-            <form action="/teste.php">
-                Selecione:
-                    <input type="checkbox"/>Aluno
-                    <input type="checkbox"/>Professor
-                    <input type="checkbox"/>Empregador  
-                    <br>                         
-                Nome: <input type="text" maxlength="15"/>
-                Email: <input type="email" maxlength="15"/>
-                Insira: <textarea></textarea>
-                <!--Enviar-->
+        <h1 id="TituloContato">Contato</h1>
+        <div id="AreaContato" >            
+            <form id="Formulario" action="/teste.php">                
+                <div id="CaixaSelecao">                                            
+                        <input type="checkbox"/>Aluno
+                        <input type="checkbox"/>Professor
+                        <input type="checkbox"/>Empregador                                                                   
+                </div>
+                <div>
+                    Nome: <input type="text" maxlength="15"/>
+                    Email: <input type="email" maxlength="15"/>
+                    Insira: <textarea></textarea>
+                </div>
+                <!--Enviar/Limpar-->
                 <div class="BotoesEnviar">
                     <input type="submit" value="Enviar">
                     <input type="reset" value="Limpar">
-                </div>
-                
+                </div>                
             </form>
-        </div>
+        </div>        
     </body>
 </html>

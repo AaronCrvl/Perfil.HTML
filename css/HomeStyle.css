@@ -1,0 +1,48 @@
+/* ApresentacaoPerfil.html */
+    #BemVindo {
+        animation: BemVindoAction 5s infinite;          
+        position:relative;
+        margin: 50px;
+        font-family: sans-serif;        
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        overflow: hidden;    
+    }
+    #BemVindo:hover{
+    animation-play-state: paused;                       
+    }
+    @keyframes BemVindoAction {
+        0% {color:rgb(255, 255, 255); }         
+        50% {color: #522f9e;}          
+        100% {color:rgb(164, 11, 252);}    
+    }
+    #TabelaLinks {
+        font-family: sans-serif;        
+        background: content-box;    
+        margin: 10px;    
+        padding: 10px;
+        color: white;    
+        display: grid;  
+    }
+    .CabecalhoTabela {    
+        text-align: center;       
+        font-family: sans-serif; 
+    }
+    .CorpoTabela{           
+        text-align-last: center;
+        list-style-type:none;
+        margin: 10px;
+        padding: 50px;      
+        overflow: hidden;
+    }
+    .ImagensLink:hover{
+        animation: SelecaoCelula 3s infinite;        
+    }
+    @keyframes SelecaoCelula {
+        0% {background-color: none; }         
+        50% {background-color: mediumpurple;}          
+        100% {background-color: white;} 
+    }

@@ -1,0 +1,31 @@
+/* Contato.html */    
+    #TituloContato{
+        animation: ContatoAction 5s infinite;  
+        font-size: 50px;
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+    }
+    #TituloContato:hover{
+        animation-play-state: paused;                       
+    }
+    @keyframes ContatoAction {
+        0% {color:rgb(255, 255, 255); }         
+        50% {color: #522f9e;}          
+        100% {color:rgb(164, 11, 252);}    
+    }
+    #AreaContato {
+        display: grid;        
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: xx-large;
+    }
+    #CaixaSelecao {        
+        display: inline-flex;
+    }
+    .BotoesEnviar {
+        text-align: center;
+        display: -webkit-inline-box;
+    }
+    

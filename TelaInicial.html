@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
-
     <head>
         <title>Olá!</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/DefaultStyle.css" type="text/css">
+        <link rel="stylesheet" href="css/HomeStyle.css" type="text/css">
     </head>
 
     <body style="background-image: url(images/Fundo.jpg);">
+        <div id="Animacao"></div>
         <!---->
         <div id="Cabecalho">
             <table>
                 <thead>
                     <tr id="OpcoesCabecalho">                        
                         <td>
-                            <a href="ApresentacaoPerfil.html">Home</a>
+                            <a href="TelaInicial.html">Home</a>
                         </td>
                         <td>
                             <a href="Contato.html">Contato</a>
@@ -25,15 +26,15 @@
         </div>
         <!---->
         <div id="BemVindo">
-            <h1>Bem-Vindo!</h1>
-            <p>Meu nome é Aaron, sou estudante de Engenharia de Sistemas pela Universidade Federal de Minas Gerais.<br>            
+            <h1 style="font-size: 50px;">Bem-Vindo!</h1>
+            <p class="TextoPadrao">Meu nome é Aaron, sou estudante de Engenharia de Sistemas pela Universidade Federal de Minas Gerais.<br>            
                 Abaixo estão alguns projetos que fiz ao longo da minha -curta- trajetória, espero que<br>
                 eles possam te ajudar como refêrencia para outros projetos.</p>
         </div>
         <!---->        
         <div id="TabelaLinks">                       
             <table>  
-                <h2 style="text-align: center;">Selecione a linguagem</h2>         
+                <h2 class="TextoPadrao">Selecione a linguagem</h2>         
                 <thead>                    
                     <tr class="CabecalhoTabela">                        
                         <th>C++</th>
@@ -43,19 +44,19 @@
                 </thead>      
                 <tbody>
                     <tr class="CorpoTabela">
-                        <td>
+                        <td class="ImagensLink">
                             <a href="https://github.com/AaronCrvl?tab=repositories&q=&type=&language=c%2B%2B&sort=">
                                 <img src="images/C++.png" alt="Linguagem C#" width="120" height="100">
                             </a>
                         </td>
-                        <td>
+                        <td class="ImagensLink">
                             <a href="https://github.com/AaronCrvl?tab=repositories&q=&type=&language=c%23&sort=">
                                 <img src="images/CSharp.png" alt="Linguagem C#" width="120" height="100">
                             </a>
                         </td>
-                        <td>
+                        <td class="ImagensLink">
                             <a href="https://github.com/AaronCrvl?tab=repositories&q=&type=&language=html&sort=">
-                                <img src="images/html.png" alt="Linguagem C#" width="120" height="100">
+                                <img  src="images/html.png" alt="Linguagem C#" width="120" height="100">
                             </a>
                         </td>
                     </tr>
@@ -63,6 +64,5 @@
             </table>
         </div>
         <!---->
-    </body>
-    
+    </body>    
 </html>
