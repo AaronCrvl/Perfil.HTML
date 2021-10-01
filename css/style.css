@@ -1,0 +1,63 @@
+/* Base Padrão */
+#OpcoesCabecalho {
+    list-style-type:none;
+    background-color: mediumpurple;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    text-align-last: center;
+}
+body{
+    white-space: pre-line;
+    display: grid;
+}
+.Lista {
+    font-size: 20px;    
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    display:inline;
+}
+
+/* ApresentacaoPerfil.html */
+#BemVindo {
+    margin: 50px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;    
+}
+#TabelaLinks {
+    font-family: sans-serif;        
+    background: content-box;    
+    margin: 10px;    
+    padding: 10px;
+    color: white;    
+    display: grid;  
+}
+.CabecalhoTabela {    
+    text-align: center;       
+    font-family: sans-serif; 
+}
+.CorpoTabela{   
+    
+    text-align-last: center;
+    list-style-type:none;
+    margin: 10px;
+    padding: 50px;      
+    overflow: hidden;
+}
+
+
+/* Contato.html */
+#AreaContato {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: xx-large;
+}
+.BotoesEnviar{
+    display: inline-table;    
+}
